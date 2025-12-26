@@ -24,13 +24,13 @@ The synchronous nature of the flip-flops ensures that the shifting of data occur
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
 **Procedure**
-***
+```
 TYPE THE CODE IN THE QUARTUS SOFTWARE
 COMPILE AND RUN THE CODE
 GENERATE THE RTL VIEWER
 CREATE NODES FOR INPUT AND OUTPUT NODES TO GENERATE TIMING DIAGRAM
 FOR DIFFERENT COMBINATIONS OF INPUT GENERATE THE TIMING DIAGRAM
-***
+```
 
 **PROGRAM**
 <img width="265" height="239" alt="image" src="https://github.com/user-attachments/assets/f3ea921e-86a6-4ddf-add4-06bfa6835ae9" />
