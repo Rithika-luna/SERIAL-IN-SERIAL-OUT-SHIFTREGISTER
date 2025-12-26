@@ -31,11 +31,23 @@ GENERATE THE RTL VIEWER
 CREATE NODES FOR INPUT AND OUTPUT NODES TO GENERATE TIMING DIAGRAM
 FOR DIFFERENT COMBINATIONS OF INPUT GENERATE THE TIMING DIAGRAM
 ***
+
 **PROGRAM**
 <img width="265" height="239" alt="image" src="https://github.com/user-attachments/assets/f3ea921e-86a6-4ddf-add4-06bfa6835ae9" />
+
 Developed by:
 S.RITHIKA
 RegisterNumber:25015482
+
+**TRUTH TABLE**
+| Clock Pulse | sin | q3 q2 q1 q0 | sout |
+| ----------- | --- | ----------- | ---- |
+| Reset       | X   | 0000        | 0    |
+| 1           | 1   | 0001        | 0    |
+| 2           | 0   | 0010        | 0    |
+| 3           | 1   | 0101        | 0    |
+| 4           | 1   | 1011        | 1    |
+| 5           | 0   | 0110        | 0    |
 
 **RTL LOGIC FOR SISO Shift Register**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/859a4145-2123-4ee2-8d06-902c587ed344" />
